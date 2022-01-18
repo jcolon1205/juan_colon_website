@@ -1,6 +1,6 @@
-import "./Works.scss"
+import "./Projects.scss"
 
-export default function Works() {
+export default function Projects() {
 
     const list = [
         {
@@ -21,18 +21,18 @@ export default function Works() {
         },
     ];
     return(
-         <div className="works" id ="works">
+         <div className="projects" id ="projects">
        <h1>Projects</h1>
        <ul>
           {list.map(item=>(
-              <worksList title={item.title}/>
+              <projectsList title={item.title}/>
           ))}
        </ul>
        <div className="container">
            <div className="item">
                <a href="https://mystreamingprojectapp.herokuapp.com/"><img src="assets/reactCode.jpg" alt ="" /></a>
                <h3>Streaming Website</h3>
-               </div>           
+               </div>                        
            <div className="item">
            <a href="#intro"><img src="assets/RessumePic.png" alt ="" /></a> 
                <h3 list>Resume Website</h3>

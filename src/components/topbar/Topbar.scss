@@ -30,7 +30,26 @@
             color: inherit;
             margin-right: 40px;
         }
+        
 
+        .itemContainerA{
+
+            display: flex;
+            align-items: center;
+            //margin-left: 5px;
+
+            .icon{
+                font-size: 18px;
+                margin-right: 10px;
+            }
+            span{
+               font-size: 15px; 
+               font-weight: 500px;
+               
+            }
+
+            
+        }
         .itemContainer{
             display: flex;
             align-items: center;
@@ -68,6 +87,7 @@
                 background-color: $mainColor;
                 transform-origin: left;
                 transition: all 2s ease;
+                
             }
 
         }

@@ -10,18 +10,23 @@
     }
 
     .left{
-        flex: 1;
+        height: 60%;
         overflow: hidden;
+
+        @include mobile{
+           flex: 2;
+        overflow: hidden; 
+        }
 
         img{
                        
-            height:50%;
+            height:80%;
             margin-left: 50px;
             margin-top: 100px;
 
             @include mobile{
                 margin-top: 100px;
-                margin-left: 1px;
+                //margin-left: 1px;
                 height:60%;
             }
         
@@ -29,7 +34,7 @@
         }
     }
     .right{
-        flex: 1;
+        flex: 2;
         display: flex;
         //margin-right: 50px;
         flex-direction: column;
