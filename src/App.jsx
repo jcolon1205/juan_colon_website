@@ -5,20 +5,13 @@ import Projects from "./components/projects/Projects";
 import References from "./components/references/References";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Menu from "./components/menu/Menu";
 
 
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
-
-
-  useEffect(()=>{
-    document.addEventListener("mousedown", () =>{
-      setMenuOpen(false)
-    })
-  })
 
   
   return (

@@ -9,20 +9,22 @@
    
     
     .imgContainer{
-       position:relative;
-       display: flex;       
-       justify-content: center;
-       height:90%;
-       width:100%;
+      position:relative;
+         display: flex;       
+         justify-content: center;
+         height:100%;
+         width:100%;
+
+         
 
        @include mobile{
-      position:relative;
-      margin-top: 60px;
-       display: flex;       
-       justify-content: center;
-       height:70%;
-       width:100%; 
+         //position:relative;
+         //display: flex;       
+         //justify-content: center;
+         height:100%;
+         width:100%;
        }
+       
  
    
      
@@ -35,9 +37,19 @@
        font-size:25px;
        font-weight: 800;
        text-align:center;
-       margin: 10px;
+       margin: 5px;
        position: relative;
        overflow: hidden;
        
+    }
+
+    h5{
+       color: blue;
+      font-size:20px;
+       font-weight: 800;
+       text-align:center;
+       //margin: 10px;
+       position: relative;
+       overflow: hidden; 
     }
 }
